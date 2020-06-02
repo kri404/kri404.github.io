@@ -1,0 +1,46 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+main{
+  height: calc(100% - 20px);
+}
+body{
+  background-color: black;
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    display: table;
+    height: calc(100% - 60px);
+    text-align: center;
+}
+.container {
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+}
+footer {
+    font-size: .75em;
+    text-align: center;
+    height: 20px;
+    color: white;
+}
+.left{
+  float: left;
+  width: 50%;
+}
+.right{
+  float: right;
+  width: 50%;
+
+}
+.meimg{
+  padding: 3px;
+  height: 100px;
+  width: 100px;
+
+}
