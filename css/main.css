@@ -9,6 +9,16 @@ main{
 body{
   background-color: black;
 }
+footer {
+    font-size: .75em;
+    text-align: center;
+    height: 20px;
+    color: white;
+}
+h1, h2, h3{
+  margin: 0;
+  padding: 0;
+}
 .wrapper {
     margin: 0 auto;
     padding: 0;
@@ -22,12 +32,6 @@ body{
     display: table-cell;
     vertical-align: middle;
     height: 100%;
-}
-footer {
-    font-size: .75em;
-    text-align: center;
-    height: 20px;
-    color: white;
 }
 .left{
   float: left;
@@ -43,4 +47,8 @@ footer {
   height: 100px;
   width: 100px;
 
+}
+.meInfo{
+  margin-top: 30px;
+  font-size: .8em;
 }
