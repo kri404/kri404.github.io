@@ -1,0 +1,21 @@
+.thumb{
+  height: 75px;
+  width: 75px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+
+  margin: 0px auto;
+  padding: 0 auto;
+  display: inline-block;
+}
+.smallText{
+  color: green;
+  font-size: .75em;
+}
+.infoTxt{
+  font-size: .75em;
+  margin: 5px;
+}
