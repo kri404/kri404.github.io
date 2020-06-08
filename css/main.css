@@ -9,12 +9,6 @@ main{
 body{
   background-color: black;
 }
-footer {
-    font-size: .75em;
-    text-align: center;
-    height: 20px;
-    color: white;
-}
 h1, h2, h3{
   margin: 5px;
   padding: 0;
