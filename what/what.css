@@ -11,8 +11,12 @@
   padding: 0 auto;
   display: inline-block;
 }
-.smallText{
+.smallTextapproved{
   color: green;
+  font-size: .75em;
+}
+.smallTextNotapproved{
+  color: red;
   font-size: .75em;
 }
 .infoTxt{
