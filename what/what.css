@@ -22,7 +22,7 @@
 .infoTxt{
   font-size: .75em;
   margin: 5px;
-  width: 75%;
+  max-width: 90%;
   margin: 0 auto;
   padding: 0 auto;
 
