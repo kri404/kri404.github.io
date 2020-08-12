@@ -1,0 +1,9 @@
+.meLinks a{
+  color: white;
+  text-decoration: none;
+  font-size: .8em;
+}
+.meLinks a:hover{
+  color: blue;
+  text-decoration: underline;
+}
