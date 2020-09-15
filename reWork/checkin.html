@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Welcome to re:work</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/login.css">
+  <link rel="stylesheet" type="text/css" href="css/user.css">
+  <link rel="stylesheet" type="text/css" href="css/checkin.css">
+
+</head>
+<body>
+  <div class="demo-alert"></div>
+    <div class="center-login">
+      <div class="wrapper">
+
+        <img class="user-image" src="img/me.jpg" alt="kri404 profile picture">
+        <h3 class="welcome-user">Hi, kri404</h3>
+
+        <div class="user-links">
+          <ul>
+            <li><a href="#">My settings</a></li>
+            <li><a href="#">Logout</a></li>
+          </ul>
+        </div>
+
+        <div class="update-info">
+          <p class="checkin-updates"> → Retriving and validating your location data</p>
+
+          <p class="text-error">Sorry, our system was not able to confirm that you are in CA 94117, if you think this is mistake you can try again, make sure your device is set up correctly.</p>
+
+          <p class="text-sucess">Great, our system confirmed that you are in CA 94117, you can continue with check in.</p>
+
+          <form method="POST" action="checkin.html" id="project-1-checkin">
+            <input name="project" type="hidden" value="1">
+          </form>
+          <button form="project-1-checkin" class="checkin a-button" onclick="return confirm('We will try to detect your location, if your location match required postcode (CA 94117) you will be able to check in. Are you sure you want to continue?')">Check in to University of San Francisco</button>
+
+          <button class="a-button" onclick="location.href='user.html'">&#8592; Cancel and go back</button>
+
+          <p class="note">If your location match postcode required, you will be able to check in. Make sure you have set permissions correctly so we can access your location data. On how to set up you device you can find instructuons <a href="">here</a>. Please wait while we detect your location!</p>
+        </div>
+
+    </div>
+  </div>
+</body>
+</html>

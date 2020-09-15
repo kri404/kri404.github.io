@@ -1,0 +1,50 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+body{
+  background-color: #ededed;
+}
+iframe{
+  style="border: none;
+}
+/*
+*/
+.demo-alert{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% - 10px);
+  background-color: red;
+  padding: 5px;
+  font-size: .75em;
+  text-align: center;
+  color: white;
+}
+
+.demo-alert:before{
+  content: "This is layout sample.";
+}
+/* width hack */
+@media screen and (max-width: 600px) {
+    div.wrapper, iframe{
+        max-width: 320px !important;
+        width: 320px !important;
+        height: auto !important;
+    }
+}
+input:focus{
+    outline: none;
+}
+.a-button{
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  cursor: pointer;
+}
+button.a-button:hover{
+  margin: 0;
+  background-color: white;
+  color: gray;
+}

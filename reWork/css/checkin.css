@@ -1,0 +1,28 @@
+.update-info{
+  border-top: 1px solid gray;
+}
+p.checkin-updates{
+  color: black;
+  font-size: .75em;
+}
+
+p.text-error{
+  font-size: .75em;
+  color: red;
+}
+
+p.text-sucess{
+  font-size: .75em;
+  color: green;
+}
+
+button.checkin{
+  background-color: green;
+}
+button.checkin:hover{
+  color: green
+}
+p.note{
+  font-size: .75em;
+  color: gray;
+}
