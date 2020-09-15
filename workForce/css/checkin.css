@@ -1,0 +1,57 @@
+/* width hack*/
+@media screen and (max-width: 650px) {
+    .checkin-info-box, .btn{
+        max-width: 320px !important;
+        width: auto !important;
+        height: auto !important;
+    }
+}
+
+
+.a-btn a{
+  padding: 10px 0;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+.checkin-btn-green a{
+  color: white;
+  background-color: green;
+}
+
+.checkin-btn-green a:hover{
+  background-color: #60ad54;
+}
+
+.back-btn a{
+  color: black;
+  background-color: #d3d3d3;
+}
+.back-btn a:hover{
+  background-color: white;
+  background-color: #ffffff;
+}
+
+p.green-txt{
+  color: green;
+}
+
+p.red-txt{
+  color: red;
+}
+
+p.gray-txt{
+  color: gray;
+}
+
+.loading{
+  margin: 20px;
+}
+
+.checkin-info-box{
+  max-width: 650px;
+  font-size: .75em;
+  border-top: 1px solid rgb(0, 0, 0, .2);
+  color: black;
+}

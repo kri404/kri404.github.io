@@ -1,0 +1,32 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+body{
+  background-color: #ededed;
+}
+/*
+*/
+.demo-alert{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% - 10px);
+  background-color: red;
+  padding: 5px;
+  font-size: .75em;
+  text-align: center;
+  color: white;
+}
+
+.demo-alert:before{
+  content: "This is layout sample.";
+}
+
+
+
+
+
+
+
