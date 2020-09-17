@@ -48,3 +48,17 @@ button.a-button:hover{
   background-color: white;
   color: gray;
 }
+
+p.text-error{
+  font-size: .75em;
+  color: red;
+}
+
+p.text-sucess{
+  font-size: .75em;
+  color: green;
+}
+p.note{
+  font-size: .75em;
+  color: gray;
+}
