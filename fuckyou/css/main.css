@@ -1,0 +1,109 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+body{
+  background-color: #ededed;
+}
+iframe{
+  style="border: none;
+}
+/*
+*/
+.demo-alert{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% - 10px);
+  background-color: red;
+  padding: 5px;
+  font-size: .75em;
+  text-align: center;
+  color: white;
+}
+
+.demo-alert:before{
+  content: "This is layout sample.";
+}
+/* width hack */
+@media screen and (max-width: 600px) {
+    div.wrapper, iframe{
+        max-width: 320px !important;
+        width: 320px !important;
+        height: auto !important;
+    }
+}
+input:focus{
+    outline: none;
+}
+.a-button{
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  cursor: pointer;
+}
+button.a-button:hover{
+  margin: 0;
+  background-color: white;
+  color: gray;
+}
+
+p.text-error{
+  font-size: .75em;
+
+  color: red;
+}
+
+p.text-sucess{
+  font-size: .75em;
+  color: green;
+}
+p.note{
+  font-size: .75em;
+  color: gray;
+}
+.eerror{
+  width: calc(100% - 10px);
+  font-weight: bold;
+  padding: 5px;
+  text-align: left;
+  color: white;
+  background-color: red;
+  font-size: .9em;
+}
+.eerror-green{
+  width: calc(100% - 10px);
+  font-weight: bold;
+  padding: 5px;
+  text-align: left;
+  color: white;
+  background-color: green;
+  font-size: .9em;
+}
+.user-loggedon{
+  float: left;
+  padding: 10px;
+  text-align: left;
+  width: calc(100% - 20px);
+}
+.userimg, .user-loggedon p{
+  float: left;
+}
+.user-loggedon p{
+  font-size: .75em;
+  padding: 7px;
+  margin: 0;
+}
+.userimg{
+  box-shadow: 0 0 5px black;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+.user-loggedon a{
+  text-decoration: none;
+}
+.user-loggedon a:hover{
+
+}

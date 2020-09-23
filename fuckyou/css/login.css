@@ -1,0 +1,24 @@
+.center-login{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+.wrapper{
+  width: 600px;
+}
+input.login{
+  width: calc(100% - 20px);
+  padding: 10px;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid black;
+}
+
+button.login{
+  background-color: gray;
+  color: white;
+}

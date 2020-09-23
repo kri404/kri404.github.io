@@ -1,0 +1,65 @@
+img.user-image{
+  margin-top: 10px;
+  border-radius: 50%;
+  max-height: 100px;
+  max-width: 100px;
+  box-shadow: 0 0 20px black;
+}
+h3.welcome-user{
+  margin: 0;
+  padding: 0;
+}
+.user-links{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+.user-links ul{
+  margin: 0;
+  padding: 0;
+}
+.user-links li{
+  display: inline-block;
+  list-style: none;
+}
+.user-links a{
+  font-size: 1em;
+  display: inline-block;
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+}
+.user-links a:hover{
+  color: red;
+}
+.user-links a:before{
+  content: " × ";
+}
+.project-info{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: black;
+  text-align: left;
+}
+div.project-title{
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 3px;
+}
+div.project-address{
+  font-size: .75em;
+  padding: 3px;
+}
+div.project-desc{
+  font-size: .75em;
+  padding: 3px;
+}
+button.checkin{
+  margin: 0;
+  background-color: gray;
+  color: white;
+}
+.place-box{
+  margin: 10px 0;
+}
